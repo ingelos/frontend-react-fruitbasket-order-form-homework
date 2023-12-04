@@ -20,15 +20,13 @@ article {
     margin-bottom: 10px;
 }
 
-article > button {
+.fruit-article > button {
     margin: 10px;
     max-height: 20px;
 }
 
 #reset-button {
     width: 100%;
-    padding: 5px;
-    margin: 5px 0;
 }
 
 section > select {
@@ -36,7 +34,7 @@ section > select {
 }
 
 #delivery-frequency {
-    margin: 10px 0;
+    margin: 10px 0 5px 0;
 }
 
 #delivery {
