@@ -1,0 +1,46 @@
+main {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    justify-content: center;
+    margin: 20px;
+}
+
+.article-section {
+    margin-bottom: 10px;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.fruit-article > button {
+    margin: 10px;
+    max-height: 20px;
+}
+
+#reset-button {
+    width: 100%;
+}
+
+section > select {
+    display: block;
+}
+
+#delivery-frequency {
+    margin: 10px 0 5px 0;
+}
+
+#delivery {
+    margin: 15px 5px;
+}
+
+input {
+    margin: 12px;
+}
