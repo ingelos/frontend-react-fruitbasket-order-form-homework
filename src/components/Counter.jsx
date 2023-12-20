@@ -6,7 +6,7 @@ function Counter({fruitCounter, setFruitCounter}) {
         <>
         <Button
             type='button'
-            onClick={() => setFruitCounter(fruitCounter > 0 ? fruitCounter - 1 : 0)}>
+            disabled={fruitCounter === 0} onClick={() => setFruitCounter(fruitCounter - 1)}>
             -
         </Button>
             <p>{fruitCounter}</p>
